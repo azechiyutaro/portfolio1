@@ -14,11 +14,37 @@ body {
     text-align: center;
   }
 
+  /*header*/
 .header {
     margin: 15px;
     background-color: white;
     padding: 0 2rem; 
 }
+
+.header img{
+    width: 100px; /* 画像の幅を指定 */
+    height: 100px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.header .container nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+
+}
+
+.header .container nav ul li{
+    text-decoration: none;
+}
+
 
 .header nav ul {
     display: flex;
@@ -26,5 +52,23 @@ body {
     gap: 1rem;
 }
 
+
+/*mv*/
 .mv h1{
+    font-size: 3rem;
+    margin-top: 15rem;
+}
+
+.mv p{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+
+/*about*/
+#about{
+    margin-top: 15rem;
+}
+
+#about h2{
 }
