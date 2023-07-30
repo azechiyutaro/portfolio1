@@ -23,6 +23,7 @@ body {
   }
 /*TOP戻るボタン*/
 
+
   #page-top {
     display: inline-block;
     text-decoration: none;
@@ -33,18 +34,18 @@ body {
     position: absolute;
 	position: relative;
     left: 90%;
-  font-size: 50px;
-  padding-top: 30px;
+    font-size: 2px;
+    color: white;
   }
 
 
 #page-top::before {
 	content: "";
 	position: absolute;
-	left: 60px;
+	left: 30px;
 	top: 0; 
-	width: 60px;
-	height: 100px;
+	width: 30px;
+	height: 50px;
 	background: black;
 	border-radius: 100px 60px 0 0;
 	transform: rotate(-45deg);
@@ -56,8 +57,8 @@ body {
 	position: absolute;
 	left: 0;
 	top: 0;
-	width: 60px;
-	height: 100px; 
+	width: 30px;
+	height: 50px; 
 	background: black;
 	border-radius: 60px 100px 0 0;
 	transform: rotate(45deg);
@@ -94,28 +95,16 @@ body {
     z-index: 9999;
     display: flex;
     justify-content: center;
-    flex-direction: column;
   }
 
   header h1 {
-    text-align: center;
-    position: relative;
-  }
-
-  header h1::after {
-    content: "";
-    width: 50%;
-    height: 1px;
     position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #5f4635;
-  }
+    left: 10px;
+    top: 10px; 
+ }
 
   header h1 img {
     width: 60px;
-    margin-top: 2rem;
   }
 
   header ul {
@@ -139,30 +128,13 @@ body {
     transition: all 0.3s;
   }
   
-  @media (min-width: 769px) {
-    header {
-      flex-direction: row;
-      justify-content: space-between;
-      padding: 0 24px;
-    }
-    header h1 {
-      content: none;
-      height: 100px;
-    }
-    header h1::after {
-      content: none;
-    }
-    header ul {
-      margin-top: 0;
-      height: 100%;
-    }
-    header li {
-      display: flex;
-      align-items: center;
-    }
-  }
+
 
 /*mv*/
+.mv{
+    margin-bottom: 5rem;
+}
+
 .mv h1{
     font-size: 3rem;
 }
@@ -180,17 +152,30 @@ body {
 
 /*about*/
 #about{
-    margin-top: 15rem;
+    padding-top: 2;
+    background-color: #d4d4d4;
+
 }
 
 #about h1{
     
 }
 
+#about h1 img{
+    width: 150px;
+}
+
 #about h2{
     font-size: 3rem;
     margin-top: 15rem;
-    margin-bottom: 10rem;
+}
+
+#about h3{
+}
+
+/*works*/
+#works {
+    margin-top: 4rem;
 }
 
 .works-container p{
