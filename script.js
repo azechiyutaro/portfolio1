@@ -1,7 +1,7 @@
 particlesJS("particles-js", {
 	"particles":{
 		"number":{
-			"value":50,//この数値を変更すると桜の数が増減できる
+			"value":51,//この数値を変更すると桜の数が増減できる
 			"density":{
 				"enable":true,
 				"value_area":1121.6780303333778
