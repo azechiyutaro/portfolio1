@@ -11,12 +11,12 @@ particlesJS("particles-js", {
 			"value":"#fff"
 		},
 		"shape":{
-			"type":"image",//形状は画像を指定
+			"type":"image",
 			"stroke":{
 				"width":0,
 			},
 			"image":{
-				"src":"flower.png",//【重要】画像を指定！桜の画像を設定してください。
+				"src":"flower.png",
 				"width":120,
 				"height":120
 			}
@@ -33,7 +33,7 @@ particlesJS("particles-js", {
 		},
 		"size":{
 			"value":8.011985930952697,
-			"random":true,//サイズをランダムに
+			"random":true,
 			"anim":{
 				"enable":false,
 				"speed":4,
@@ -47,11 +47,11 @@ particlesJS("particles-js", {
 		"move":{
 			"enable":true,
 			"speed":7,//この数値を小さくするとゆっくりな動きになる
-			"direction":"bottom-right",//右下に向かって落ちる
-			"random":false,//動きはランダムにしない
-			"straight":false,//動きをとどめない
-			"out_mode":"out",//画面の外に出るように描写
-			"bounce":false,//跳ね返りなし
+			"direction":"bottom-right",
+			"random":false,
+			"straight":false,
+			"out_mode":"out",
+			"bounce":false,
 			"attract":{
 				"enable":false,
 				"rotateX":281.9177489524316,
