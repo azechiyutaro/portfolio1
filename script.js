@@ -1,7 +1,3 @@
-particlesJS.load('particles-js', 'assets/particles.json', function() {
-    console.log('callback - particles.js config loaded');
-  });
-
 particlesJS("particles-js", {
 	"particles":{
 		"number":{
@@ -20,7 +16,7 @@ particlesJS("particles-js", {
 				"width":0,
 			},
 			"image":{
-				"src":"flower.png",
+				"src":"hana.png",
 				"width":120,
 				"height":120
 			}
