@@ -170,18 +170,23 @@ body {
     padding-bottom: 5rem;
 }
 
-#about h1{
+#about h2{
     font-size: 3rem;
 }
 
 #about h1 img{
-    width: 150px;
+    width: 130px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
-#about h2{
-    font-size: 3rem;
-    margin-top: 15rem;
-    font-weight: 300;
+
+#about h3{
+    font-size: 1.5rem;
+}
+
+#about  p{
+    font-size: 1rem;
 }
 
 /*works*/
