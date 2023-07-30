@@ -80,12 +80,13 @@ body {
   }
 
   footer h2{
-    margin:10 0 0 20px;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
   }
 
-  footer h2 p{
-    margin-top: 20rem;
-  }
+  footer p{
+    margin-bottom: 1rem;
+    }
 
   /*header*/
   header {
@@ -123,7 +124,7 @@ body {
     display: inline-block;
     font-size: 1.5rem;
     padding: 0.5rem 1.5rem;
-    color: black;
+    color: #3E4550;
     text-decoration: none;
     transition: all 0.3s;
   }
@@ -153,12 +154,10 @@ body {
 /*about*/
 #about{
     padding-top: 2;
-    background-color: #d4d4d4;
-
 }
 
 #about h1{
-    
+    font-size: 3rem;
 }
 
 #about h1 img{
@@ -168,6 +167,7 @@ body {
 #about h2{
     font-size: 3rem;
     margin-top: 15rem;
+    font-weight: 300;
 }
 
 #about h3{
@@ -178,6 +178,31 @@ body {
     margin-top: 4rem;
 }
 
+#works h1 img{
+    margin-top: 2rem;
+    width: 500px;
+}
+
+#works h2{
+    margin-top: 20rem;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+#works h3{
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+
+#works h3 p{
+    font-size: 2rem;
+}
+
+#works p{
+    font-size: 1rem;
+}
+
 .works-container p{
     margin-bottom: 9rem;
 }
+
