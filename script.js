@@ -16,7 +16,7 @@ particlesJS("particles-js", {
 				"width":0,
 			},
 			"image":{
-				"src":"flower.png",
+				"src":"flower (1).png",
 				"width":120,
 				"height":120
 			}
